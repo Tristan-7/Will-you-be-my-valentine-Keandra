@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  display: flex;
+  align-items: centre;
+  justify-content: centre;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: centre;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  colour: white;
+}
+
+#noBtn {
+  background: #ddd;
+}
